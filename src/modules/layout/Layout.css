@@ -1,18 +1,16 @@
 .layout-container {
-    background-color: #5d5e60;
+    background-color: #f4f4f4;
 }
 
 .layout-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #eff1f4; /* Deep navy */
-   
-    height: 64px;
+    background: #eff1f4;
 }
 
 .layout-logo {
-    color: #f4f4f4; /* Soft white */
+    color: #f4f4f4;
     font-size: 22px;
     font-weight: bold;
     letter-spacing: 1px;
@@ -47,15 +45,13 @@
 
 .layout-content {
    
-    min-height: calc(100vh - 128px);
+
     background: #f0f2f5;
 }
 
 .layout-inner-content {
-    
     margin: 0 auto;
     background: #ffffff;
-    padding: 32px;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }

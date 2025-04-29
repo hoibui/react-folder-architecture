@@ -34,7 +34,7 @@ const Layout = () => {
             label: (
                 <Link to="/cart">
                     <Badge count={cartItems.length} size="small">
-                        <ShoppingCartOutlined style={{ fontSize: "18px", color: "#f4f4f4" }} />
+                        <ShoppingCartOutlined style={{ fontSize: "18px", color: "#1710d6" }} />
                     </Badge>{" "}
                     Cart
                 </Link>
@@ -57,16 +57,26 @@ const Layout = () => {
         <AntLayout className="layout-container">
             <Header className="layout-header">
                 <div className="layout-logo">
-                <Title level={4} style={{ color: "#f4f4f4", margin: 0, fontWeight: "bold", letterSpacing: "1px" }}>
+                    <Title
+                        level={4}
+                        style={{
+                            color: "#f4f4f4",
+                            margin: 0,
+                            fontWeight: "bold",
+                            letterSpacing: "1px",
+                        }}
+                    >
                         My React App
                     </Title>
                 </div>
-                <Menu
-                    mode="horizontal"
-                    selectedKeys={[location.pathname]}
-                    items={menuItems}
-                    className="layout-menu"
-                />
+                {isAuthenticated && (
+                    <Menu
+                        mode="horizontal"
+                        selectedKeys={[location.pathname]}
+                        items={menuItems}
+                        className="layout-menu"
+                    />
+                )}
                 {isAuthenticated && (
                     <Dropdown overlay={userMenu} trigger={["click"]}>
                         <Avatar

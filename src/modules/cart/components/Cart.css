@@ -1,0 +1,32 @@
+/* Improved styles for the Cart component */
+.container {
+    padding: 24px;
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.avatarItem {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.emptyCart {
+    margin-top: 50px;
+    text-align: center;
+    color: #555;
+}
+
+.table {
+    margin-top: 20px;
+}
+
+.total {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 20px;
+}

@@ -1,0 +1,65 @@
+/* Improved styles for the Home component */
+.home-container {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.home-row {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.home-title {
+    font-size: 3rem;
+    line-height: 1.2;
+    color: #333;
+}
+
+.home-paragraph {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    color: #555;
+}
+
+.home-button {
+    margin-top: 30px;
+    background-color: #1890ff;
+    color: white;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.home-button:hover {
+    background-color: #40a9ff;
+    color: white;
+}
+
+.home-image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.home-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}

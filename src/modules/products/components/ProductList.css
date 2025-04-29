@@ -1,0 +1,60 @@
+/* Improved styles for the ProductList component */
+.product-list-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.product-card {
+    border-radius: 8px;
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-card-image {
+    height: 220px;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    width: 100%;
+}
+
+.product-card-meta {
+    padding: 12px;
+}
+
+.product-card-title {
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.product-card-description {
+    margin-bottom: 12px;
+    font-size: 14px;
+    color: #555;
+}
+
+.product-card-price {
+    font-size: 18px;
+    color: #52c41a;
+}
+
+.product-card-button {
+    margin-top: 12px;
+    border-radius: 6px;
+}
+
+.product-list-pagination {
+    margin-top: 30px;
+    text-align: center;
+}

@@ -1,0 +1,45 @@
+.contact-container {
+    padding: 24px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact-card {
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+}
+
+.contact-title {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.contact-paragraph {
+    text-align: center;
+    margin-bottom: 24px;
+    color: #555;
+}
+
+.contact-form {
+    margin-top: 16px;
+}
+
+.contact-info-card {
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+}
+
+.contact-info-title {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.contact-info-item {
+    margin-bottom: 12px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}

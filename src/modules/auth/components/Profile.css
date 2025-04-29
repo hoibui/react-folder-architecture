@@ -1,0 +1,27 @@
+.profile-no-user {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.profile-container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-card {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card-image {
+    height: 250px;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.profile-card-meta {
+    margin: 8px 0;
+}

@@ -1,0 +1,38 @@
+.employee-list-loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.employee-list-error {
+    text-align: center;
+    color: red;
+    margin-top: 40px;
+}
+
+.employee-list-empty {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.employee-list-container {
+    padding: 20px;
+}
+
+.employee-card {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.employee-card-image {
+    height: 250px;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.employee-card-meta {
+    margin: 8px 0;
+}

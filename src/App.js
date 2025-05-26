@@ -24,6 +24,8 @@ const App = () => {
                 { path: "", element: <ProtectedRoute><Home /></ProtectedRoute> },
                 { path: "contact", element: <ProtectedRoute><Contact /></ProtectedRoute> },
                 { path: "employees", element: <ProtectedRoute><EmployeeList /></ProtectedRoute> },
+
+                
                 { path: "products", element: <ProtectedRoute><ProductList /></ProtectedRoute> },
                 { path: "profile", element: <ProtectedRoute><Profile /></ProtectedRoute> },
                 { path: "cart", element: <ProtectedRoute><Cart /></ProtectedRoute> },
